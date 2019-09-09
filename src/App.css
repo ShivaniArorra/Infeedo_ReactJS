@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 7vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.loginBox {
+  padding-top:10%; 
+  margin: auto;
+}
+
+.chatbox {
+  padding-top:2%; 
+  margin: 5px auto;
+  border: 1px solid lightblue;
+}
+
+.received_msg {
+  display: inline-block;
+  padding: 0 0 0 10px;
+  vertical-align: top;
+  width: 92%;
+ }
+ .received_withd_msg p {
+  background: #ebebeb none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #646464;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+.time_date {
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+.received_withd_msg { width: 65%;}
+.mesgs {
+  float: left;
+  padding: 30px 15px 0 25px;
+  width: 60%;
+}
+
+ .sent_msg p {
+  background: #05728f none repeat scroll 0 0;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 0; color:#fff;
+  padding: 5px 10px 5px 12px;
+  width:100%;
+}
+.outgoing_msg{ overflow:hidden; margin:26px 0 26px;}
+.sent_msg {
+  float: right;
+  width: 65%;
+}
+
+.type_msg {border-top: 1px solid #c4c4c4;position: relative;}
+.msg_send_btn {
+  background: #05728f none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  height: 35px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  width: 35px;
+}
+.msg_send_btn > img {
+  height: 20px;
+  width: 20px; 
+}
+
+.input_msg_write input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  border-bottom: 1px solid;
+  color: #4c4c4c;
+  font-size: 15px;
+  min-height: 48px;
+  width: 100%;
+  outline: none;
+}
+
+.chatMessages {
+  height: 78vh;
+  min-height: 78vh;
+  overflow: scroll;
+}
+
+
+/* Menu */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 16px;
+  top: 10px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #aab32e;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
